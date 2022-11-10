@@ -14,15 +14,15 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
-nav ul {
+#nav_menu ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-nav ul li {
+#nav_menu ul li {
 	float: left;
 }
-nav ul li a {
+#nav_menu ul li a {
 	display: block;
 	width: 0.2%;
 	text-align: center;
@@ -32,7 +32,7 @@ nav ul li a {
 	color: white;
 	font-weight: bold;
 }
-nav a.current {
+#nav_menu a.current {
 	color: yellow;
 }
 a:focus, a:hover {
