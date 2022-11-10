@@ -50,6 +50,7 @@ body {
 #nav_menu > ul::after {
 	content: "";
 	display: block;
+	clear: both;
 }
 a:focus, a:hover {
 	font-style: italic;
