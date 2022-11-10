@@ -47,6 +47,10 @@ body {
 #nav_menu ul li:hover>ul {
 	display: block;
 }
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+}
 a:focus, a:hover {
 	font-style: italic;
 }
